@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>join</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajas/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajas/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.js"></script>
+        <style>
+          *{box-sizing: border-box;}
+          body{
+            background-image: url(image/mem1.jpg); background-size: cover;
+          }
+          h1{
+            text-align: center;
+            font-size: 60px;
+          }
+          .main{
+            width: 450px;
+            height: 530px;
+            background-color: lightpink;
+          }
+          .main label{
+            color: black;
+            font-size: 20px;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Join with us</h1>
+      <form action="file.php" method="post" class="container-fluid main">
+        <label>Name</label><br>
+        <input type="text" placeholder="Name" name="name"><br><br>
+        <label>Email</label><br>
+        <input type="email" placeholder="Email" name="Email"><br><br>
+        <label>Age</label><br>
+        <input type="number" placeholder="Age" name="Age"><br><br>
+        <label>Phone no.</label><br>
+        <input type="number" placeholder="phone no." name="Phoneno"><br><br>
+        <label>Gender</label><br>
+        <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="other" name="Gender" value="other">
+            <label for="other">Other</label><br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>donate</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajas/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajas/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/d108b6862a.js"></script>
+        <style>
+            *{box-sizing:border-box}
+            h1{font-size: 50px; padding: 20px;}
+            img{
+                width: 300px; height: 330px;
+            }
+            form{
+
+                 height: 700px;
+                }
+            form label{
+                font-size: 20px;
+            }
+            form input{
+               width: 40%; height: 25px; 
+                font-size: 15px;
+            }
+            form input[type=radio]{
+              width: 2%;
+            }
+            form input[type=submit]{
+              width: 10%;
+            }
+            .main{
+                 height: auto; padding: 25px 0px 60px;
+            }
+            button{
+                width: 200px; height: 50px;  border-radius: 8px; background-color: lightgreen;
+            }
+            a{
+              color: black;
+            }
+            .d{
+                height: auto; padding-top: 35px; background-color: lightgrey;
+            }
+            .d p1{
+                font-size: 20px;
+            }
+            .d a{
+              font-size: 30px; color: blue;
+            }
+        </style>
+    </head>
+    <body class="container">
+      <h1>Your donation help us to save the envirnment</h1>
+      <img src="image/climate.jpg"><br>
+    <div class="main">
+      <button type="button"><a href="#">Give one-time</a></button>
+      <button type="button"><a href="#">Give monthly</a></button><br><br>
+      <button type="button"><a href="#">Rs.500</a></button>
+      <button type="button"><a href="#">Rs.1000</a></button><br><br>
+      <button type="button"><a href="#">Rs.10,000</a></button>
+      <button type="button"><a href="#">Rs.50,000</a></button>
+    </div>
+      <form>
+        <label>Other amount</label><br>
+        <input type="number" ><br><br>
+        <label>Name</label><br>
+          <input type="text" ><br><br>
+          <label>Email</label><br>
+          <input type="email"><br><br>
+          <label>Zip code</label><br>
+          <input type="number" ><br><br>
+          <label>City</label><br>
+          <input type="text"><br><br>
+          <label>State</label><br>
+          <input type="text"><br><br>
+          <input type="submit" placeholder="submit"><br>
+          <label>Payment</label><br>
+        <input type="radio" id="credit card" name="Payment" value="credit card">
+            <label for="Credit card">credit card</label>
+            <input type="radio" id="paytm" name="Payment" value="paytm">
+            <label for="paytm">Paytm</label>
+      </form>
+      <div class="d">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-4 col-12">
+              <p1>Phone:1234567894<br>
+              Email:PN@123.yahoo<br>
+              B-102, Sector 11<br>
+              Delhi 104101<br>
+              India</p1><br>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+              <h4>Follow us:</h4>
+              <a href="https://www.facebook.com/mahesh.sengar.3348" class="fa fa-facebook"></a>
+              <a href="https://www.youtube.com/channel/UChmp4XwN1sNjKOEvfyCvUXg" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="https://www.instagram.com/vidhi.sengar2002/" class="fa fa-instagram"></a>
+              <a href="https://www.pinterest.com/vidhisengar/" class="fa fa-pinterest"></a>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

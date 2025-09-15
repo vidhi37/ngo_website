@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajas/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajas/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/d108b6862a.js"></script>
+        <style>
+            *{box-sizing: border-box;}
+             h1{
+                font-size: 30px; padding: 30px;
+            height: 100px; text-align: center;
+            }
+             p{
+                font-size: 17px; padding-top: 40px;
+            }
+            h3{
+                padding-top: 20px;
+            }
+            form{
+                padding-top: 20px;
+            }
+             label{
+                font-size: 17px;
+             }
+             input{
+                width: 60%; height: 25px;
+            }
+            .menu{
+            height: 70px;background-color: limegreen;
+            padding-top: 15px;
+            }
+            .menu ul{
+               display: flex;  flex-direction: row; justify-content: space-around;
+               list-style-type: none;
+            }
+            .menu ul a{
+               color: black; font-size: 16px;
+            }
+            .d{
+                height: auto; padding-top: 35px; background-color: lightgrey;
+            }
+            .d p1{
+                font-size: 17px; 
+            }
+            .d a{
+                font-size: 35px;
+            }
+        </style>
+    </head>
+    <body>
+     <div class="container-fluid">
+        <h1>Protect Nature</h1>
+      <div class="menu">
+      <ul>
+        <li><a href="eco.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li> <a href="donate.html">Donate</a></li>
+      </ul>
+      </div>
+     </div>
+      <div class="container">
+       <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-4 col-12"> 
+        <p>For any query contact us at <br>
+        B-102, Sector 11<br>
+        Delhi 104101<br>
+        India<br><br>
+        Phone:1234567894<br>
+        Email id:PN@123.yahoo<br><br>
+        Working Hours:<br>
+        09:00 AM to 07:00 PM<br>
+        Working days:<br>
+        Monday to Friday<br>
+        </p>
+        </div>
+       <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <h3>Get in touch</h3>
+       <form action="contact.php" method="post">
+           <label>Name</label><br>
+           <input type="text" placeholder="Name" name="Name"><br><br>
+           <label>Email</label><br>
+           <input type="email" placeholder="Email" name="Email"><br><br>
+           <label>Phone no.</label><br>
+           <input type="number" placeholder="phone no." name="Mobile"><br><br>
+           <label>Message</label><br>
+           <textarea name="message" rows="5" cols="20">Send a message</textarea><br>
+           <input type="submit" value="submit" name="submit"><br>
+       </form>
+       </div>
+       </div>
+     </div>
+    <div class="container-fluid d">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-4 col-12">
+                <p1>Phone:1234567894<br>
+                Email:PN@123.yahoo<br>
+                B-102, Sector 11<br>
+                Delhi 104101<br>
+                India</p1><br>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-4 col-12">
+            <h4>Follow us:</h4>
+            <a href="https://www.facebook.com/mahesh.sengar.3348" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/channel/UChmp4XwN1sNjKOEvfyCvUXg" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="https://www.instagram.com/vidhi.sengar2002/" class="fa fa-instagram"></a>
+            <a href="https://www.pinterest.com/vidhisengar/" class="fa fa-pinterest"></a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
